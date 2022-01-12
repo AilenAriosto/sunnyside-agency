@@ -54,13 +54,13 @@ body{
 /*----------------------- Header ---------------------------------*/
 
 header{
-    height: calc(100vh - 49px);
+    height: calc(90vh - 50px);
     width: 100%;
     background-image: url('../images/desktop/image-header.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 49px;
+    padding-top: 50px;
     
 }
 
