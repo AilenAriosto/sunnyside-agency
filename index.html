@@ -8,9 +8,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <!-- Styles Css -->
+  <!-- Jquery -->
   <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
   <link rel="stylesheet" href="./assets/css/jquery-ui.structure.min.css">
   <link rel="stylesheet" href="./assets/css/jquery-ui.theme.min.css">
+  <!-- Slider -->
+  <link rel="stylesheet" href="./assets/css/slideshow.css">
+  <!-- Custom -->
   <link rel="stylesheet" href="./assets/css/styles.css">
 
   <!-- Fonts -->
@@ -148,11 +152,41 @@
     <!-- End Testimonials Section -->
 
     <!-- Section Projects -->
-    <section id="projects">
-      <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
-      <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange">
-      <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
-      <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+    <section id="projects" class="slideshow" data-pagination= "false">
+      <ul class="carousel">
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange">
+
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
+
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange">
+
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
+
+        </li>
+        <li class="slide">
+          <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+
+        </li>
+      </ul>
+        
+      
     </section>
     <!-- End Section Projects -->
   </main>
@@ -182,8 +216,12 @@
     </div>
   </footer>
   <!-- End Footer -->
+
+
   <script src="./assets/js/jquery.js"></script>
   <script src="./assets/js/jquery-ui.min.js"></script>
+  <script src="./assets/js/slideshow.js"></script>
   <script src="./assets/js/scripts.js"></script>
+
 </body>
 </html>

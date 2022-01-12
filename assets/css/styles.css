@@ -337,13 +337,13 @@ nav{
 
 /*----------------------- Projects ---------------------------------*/
 
-#projects{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-#projects>img{
+#projects>div>img{
     display: block;
     width: 100%;
+}
+
+.slide>img{
+    width: 380px;
 }
 
 /*----------------------- Footer ---------------------------------*/
@@ -404,6 +404,13 @@ footer{
     }
 
     /*----------------------- Header ---------------------------------*/
+
+    header{
+        height: calc(90vh - 26px);
+        padding-top: 26px;
+    }
+
+
     .header_nav--listContainer{
         display: none;
     }
@@ -419,6 +426,35 @@ footer{
 
     .burguer{
         display: block;
+    }
+
+    .elementsListContainer{
+        display: flex;
+        flex-direction: column;
+        height: 18rem;
+        padding: 0;
+        justify-content: space-evenly;
+        color: #818498;
+    }
+
+    .header_nav--listContainer>ul>li>a{
+        color: #818498;
+    }
+
+    #link-contact{
+        background-color: #FBD601;
+        color: var(--very_dark_desaturated_blue);
+    }
+
+    #menu{
+        background-color: white;
+        text-align: center;
+        position: absolute;
+        width: 90%;
+        margin: 75px auto;
+        right: 0;
+        left: 0;
+        z-index: 3;
     }
 
 
