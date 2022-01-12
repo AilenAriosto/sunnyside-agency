@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- Styles Css -->
+  <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="./assets/css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="./assets/css/jquery-ui.theme.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Barlow -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <!-- Font Fraunces -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  
+  <title>Sunnyside agency - jQuery</title>
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="header_nav--logoContainer">
+        <img src="./assets/images/logo.svg" alt="sunnyside logo">
+      </div>
+      <div class="burguer" id="buttonBurguer">
+        <img src="./assets/images/icon-hamburger.svg" alt="burguer">
+      </div>
+      <div class="header_nav--listContainer" id="menu">
+        <ul class="elementsListContainer">
+          <li><a class="header_nav_listContainer--elements" href="#about">About</a></li>
+          <li><a class="header_nav_listContainer--elements" href="#services">Services</a></li>
+          <li><a class="header_nav_listContainer--elements" href="#projects">Projects</a></li>
+          <li><a class="header_nav_listContainer--elements" href="#contact" id="link-contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header--titleContainer">
+      <h1 class="header_titleContainer--title">We are creatives</h1>
+    </div>
+    <img src="./assets/images/icon-arrow-down.svg" class="header--imgArrow"/>
+  </header>
+  <!-- End Header Section -->
+
+
+  <!-- About Section -->
+  <section id="about">
+    <article class="about--article">
+      <div class="about_article1--textContainer">
+        <h2 class="about_article_textContainer--title">Transform your brand</h2>
+        <p class="about_article_textContainer--parraf">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <div>
+          <a href="#" class="learnMore">Learn more</a>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/images/desktop/image-transform.jpg" alt="transform your brand - imagen" class="block">
+      </div>
+    </article>
+    <article class="about--article">
+      <div>
+        <img src="./assets/images/desktop/image-stand-out.jpg" alt="stand out to the right audience - imagen" class="block">
+      </div>
+      <div class="about_article1--textContainer">
+        <h2 class="about_article_textContainer--title">Stand out to the right audience</h2>
+        <p class="about_article_textContainer--parraf">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, 
+          we’ll build and extend your brand in digital places. 
+        </p>
+        <div>
+          <a href="#" class="learnMore--red">Learn more</a>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="services--graphic">
+      <div class="services_graphic--textContainer">
+        <h3 class="services_graphic--title">Graphic design</h3>
+        <p class="services_graphic--parraf">
+          Great design makes you memorable. We deliver artwork that underscores your 
+          brand message and captures potential clients’ attention.
+        </p>
+      </div>
+    </div>
+    <div class="services--photography">
+      <div class="services_photography--textContainer">
+        <h3 class="services_photography--title">Photography</h3>
+        <p class="services_photography--parraf">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h4 class="testimonials--title">Client testimonials</h4>
+    <div class="testimonials--cardsContainer">
+      <div class="testimonials--card">
+        <img src="./assets/images/image-emily.jpg" alt="imagen de persona">
+        <p class="testimonials_card--about">
+          We put our trust in Sunnyside and they delivered, 
+          making sure our needs were met and deadlines were always hit.
+        </p>
+        <h5 class="testimonials_card--name">Emily R.</h5>
+        <span class="testimonials_card--profesion">Marketing Director</span>
+      </div>
+  
+      <div class="testimonials--card">
+        <img src="./assets/images/image-thomas.jpg" alt="imagen de persona">
+        <p class="testimonials_card--about">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s 
+          success made it a satisfying and enjoyable experience.
+        </p>
+        <h5 class="testimonials_card--name">Thomas S.</h5>
+        <span class="testimonials_card--profesion">Chief Operating Officer</span>
+      </div>
+  
+      <div class="testimonials--card">
+        <img src="./assets/images/image-jennie.jpg" alt="imagen de persona">
+        <p class="testimonials_card--about">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside.<br> Highly recommended!
+        </p>
+        <h5 class="testimonials_card--name">Jennie F.</h5>
+        <span class="testimonials_card--profesion">Business Owner</span>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials Section -->
+
+  <!-- Section Projects -->
+  <section id="projects">
+    <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+    <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange">
+    <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
+    <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+  </section>
+  <!-- End Section Projects -->
+  
+  <!-- Footer -->
+  <footer>
+    <img src="./assets/images/logo.svg" alt="logo sunnyside footer" class="logoFooter">
+    <nav class="footer--nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <div id="social-contact">
+      <a href="www.facebook.com" class="social-contact--link">
+        <img src="./assets/images/icon-facebook.svg" alt="facebook" class="social-contact_link--image">
+      </a>
+      <a href="www.instagram.com" class="social-contact--link">
+        <img src="./assets/images/icon-instagram.svg" alt="instagram" class="social-contact_link--image">
+      </a>
+      <a href="www.twitter.com" class="social-contact--link">
+        <img src="./assets/images/icon-twitter.svg" alt="twitter" class="social-contact_link--image">
+      </a>
+      <a href="www.pinterest.com" class="social-contact--link">
+        <img src="./assets/images/icon-pinterest.svg" alt="pinterest" class="social-contact_link--image">
+      </a>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/jquery-ui.min.js"></script>
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
