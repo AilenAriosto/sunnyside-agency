@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./assets/css/slideshow.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&amp;display=swap" rel="stylesheet">
+    <title>Sunnyside agency - jQuery</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <figure class="header_nav--logoContainer"><img src="./assets/images/logo.svg" alt="sunnyside logo"></figure>
+        <figure class="burguer" id="buttonBurguer"><img src="./assets/images/icon-hamburger.svg" alt="burguer"></figure>
+        <div class="header_nav--listContainer" id="menu">
+          <ul class="elementsListContainer">
+            <li><a class="header_nav_listContainer--elements" href="#about">About</a></li>
+            <li><a class="header_nav_listContainer--elements" href="#services">Services</a></li>
+            <li><a class="header_nav_listContainer--elements" href="#projects">Projects</a></li>
+            <li><a class="header_nav_listContainer--elements" id="link-contact" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header--titleContainer">
+        <h1 class="header_titleContainer--title">We are creatives</h1>
+      </div>
+      <img class="header--imgArrow" src="./assets/images/icon-arrow-down.svg" alt="ir a la siguiente seccion">
+    </header>
+    <main>
+      <!-- About Section-->
+      <section id="about">
+        <article class="about--article">
+          <div class="about_article1--textContainer">
+            <h2 class="about_article_textContainer--title">Transform your brand</h2>
+            <p class="about_article_textContainer--parraf">
+              We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.
+            </p><a class="learnMore" href="#">Learn more</a>
+          </div>
+          <figure> <img class="block" src="./assets/images/desktop/image-transform.jpg" alt="transform your brand - imagen"></figure>
+        </article>
+        <article class="about--article">
+          <figure><img class="block" src="./assets/images/desktop/image-stand-out.jpg" alt="stand out to the right audience - imagen"></figure>
+          <div class="about_article1--textContainer">
+            <h2 class="about_article_textContainer--title">Stand out to the right audience</h2>
+            <p class="about_article_textContainer--parraf">
+              Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+              we’ll build and extend your brand in digital places.
+            </p><a class="learnMore--red" href="#">Learn more</a>
+          </div>
+        </article>
+      </section>
+      <!-- Services Section-->
+      <section id="services">
+        <article class="services--graphic">
+          <h3 class="services_graphic--title">Graphic design</h3>
+          <p class="services_graphic--parraf">
+            Great design makes you memorable. We deliver artwork that underscores your
+            brand message and captures potential clients’ attention.
+          </p>
+        </article>
+        <article class="services--photography">
+          <h3 class="services_photography--title">Photography</h3>
+          <p class="services_photography--parraf">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </article>
+      </section>
+      <!-- Testimonials Section-->
+      <section id="testimonials">
+        <h4 class="testimonials--title">Client testimonials</h4>
+        <section class="testimonials--cardsContainer">
+          <article class="testimonials--card"><img src="./assets/images/image-emily.jpg" alt="imagen de persona">
+            <p class="testimonials_card--about">
+              We put our trust in Sunnyside and they delivered,
+              making sure our needs were met and deadlines were always hit.
+            </p>
+            <h5 class="testimonials_card--name">Emily R.</h5>
+            <p class="testimonials_card--profesion">Marketing Director</p>
+          </article>
+          <article class="testimonials--card"><img src="./assets/images/image-thomas.jpg" alt="imagen de persona">
+            <p class="testimonials_card--about">
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+              success made it a satisfying and enjoyable experience.
+            </p>
+            <h5 class="testimonials_card--name">Thomas S.</h5>
+            <p class="testimonials_card--profesion">Chief Operating Officer</p>
+          </article>
+          <article class="testimonials--card"><img src="./assets/images/image-jennie.jpg" alt="imagen de persona">
+            <p class="testimonials_card--about">Incredible end result! Our sales increased over 400% when we worked with Sunnyside.<br> Highly recommended!</p>
+            <h5 class="testimonials_card--name">Jennie F.</h5>
+            <p class="testimonials_card--profesion">Business Owner</p>
+          </article>
+        </section>
+      </section>
+      <!-- Section Projects-->
+      <section class="slideshow" id="projects" data-pagination="false">
+        <ul class="carousel">
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone"></li>
+          <li class="slide"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes"></li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer><img class="logoFooter" src="./assets/images/logo.svg" alt="logo sunnyside footer">
+      <article class="footer--nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </article>
+      <article id="social-contact"><a class="social-contact--link" href="www.facebook.com"><img class="social-contact_link--image" src="./assets/images/icon-facebook.svg" alt="facebook"></a><a class="social-contact--link" href="www.instagram.com"><img class="social-contact_link--image" src="./assets/images/icon-instagram.svg" alt="instagram"></a><a class="social-contact--link" href="www.twitter.com"><img class="social-contact_link--image" src="./assets/images/icon-twitter.svg" alt="twitter"></a><a class="social-contact--link" href="www.pinterest.com"><img class="social-contact_link--image" src="./assets/images/icon-pinterest.svg" alt="pinterest"></a></article>
+    </footer>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/slideshow.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>

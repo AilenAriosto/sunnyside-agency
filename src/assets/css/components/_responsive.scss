@@ -1,0 +1,147 @@
+@media(min-width: 200px) and (max-width: 1020px){
+    .block{
+        width: 100%;
+    }
+
+    /*----------------------- Header ---------------------------------*/
+
+    header{
+        height: calc(90vh - 26px);
+        padding-top: 26px;
+    }
+
+
+    .header_nav--listContainer{
+        display: none;
+    }
+
+    .header_titleContainer--title{
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    .header--imgArrow{
+        left: 44%;
+    }
+
+    .burguer{
+        display: block;
+    }
+
+    .elementsListContainer{
+        display: flex;
+        flex-direction: column;
+        height: 18rem;
+        padding: 0;
+        justify-content: space-evenly;
+        color: #818498;
+    }
+
+    .header_nav--listContainer>ul>li>a{
+        color: #818498;
+    }
+
+    #link-contact{
+        background-color: #FBD601;
+        color: var(--very_dark_desaturated_blue);
+    }
+
+    #menu{
+        background-color: white;
+        text-align: center;
+        position: absolute;
+        width: 90%;
+        margin: 75px auto;
+        right: 0;
+        left: 0;
+        z-index: 3;
+    }
+
+
+    /*----------------------- About ---------------------------------*/
+
+    .about--article{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about_article1--textContainer{
+        padding: 60px 27px;
+        text-align: center;
+    }
+
+    .about_article_textContainer--title{
+        font-size: 37px;
+    }
+
+    #about article:nth-child(2n){
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .learnMore,
+    .learnMore--red{
+        margin: 0 auto;
+    }
+
+    /*----------------------- Services ---------------------------------*/
+
+    #services{
+        grid-template-columns: 1fr;
+        height: 59rem;
+    }
+
+    .services_graphic--title{
+        font-size: 29px;
+    }
+
+    .services_graphic--parraf{
+        width: 88%;
+        color: var(--dark_blue);
+        padding-bottom: 20px;
+    }
+
+    .services_photography--parraf{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    /*----------------------- Testimonials ---------------------------------*/
+
+    #testimonials{
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .testimonials--title{
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .testimonials--cardsContainer{
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+
+    .testimonials_card--about{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    /*----------------------- Projects ---------------------------------*/
+
+    #projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*----------------------- Footer ---------------------------------*/
+
+    .footer--nav{
+        padding: 0;
+    }
+
+    .footer--nav>ul{
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,55 @@
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-size: 18px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.block{
+    display: block;
+    width: 100%;
+} 
+
+/*----------------------- Variables ---------------------------------*/
+
+@import 'components/_variables.scss';
+
+
+/*----------------------- Header ---------------------------------*/
+
+@import 'components/_header.scss';
+
+/*----------------------- About ---------------------------------*/
+
+@import 'components/_about.scss';
+    
+/*----------------------- Services ---------------------------------*/
+
+@import 'components/_services.scss';
+
+/*----------------------- Testimonials ---------------------------------*/
+
+@import 'components/_testimonials.scss';
+
+/*----------------------- Projects ---------------------------------*/
+
+@import 'components/_projects.scss';
+    
+/*----------------------- Footer ---------------------------------*/
+
+@import 'components/_footer.scss';
+    
+/*---------------------------------------------------------*/
+/*------------------ Responsive ---------------------------*/
+/*---------------------------------------------------------*/
+
+@import 'components/_responsive.scss';

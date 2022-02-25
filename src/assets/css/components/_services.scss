@@ -1,0 +1,61 @@
+#services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30rem;
+}
+
+.services--graphic{
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.services_graphic--title{
+    font-family: var(--font_fraunces);
+    font-weight: 700;
+    color: var(--dark_desaturated_cyan);
+    font-size: 36px;
+}
+
+.services_graphic--parraf{
+    font-family: var(--font_barlow);
+    color: var(--dark_moderate_cyan);
+    width: 48%;
+    margin: 30px auto;
+    font-size: 16px;
+}
+
+.services--photography{
+    background-image: url('../images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.services_photography--title{
+    font-family: var(--font_fraunces);
+    font-weight: 700;
+    color: var(--dark_blue);
+    font-size: 36px;
+}
+
+.services_photography--parraf{
+    font-family: var(--font_barlow);
+    color: var(--dark_blue);
+    width: 47%;
+    margin: 30px auto;
+    font-size: 16px;
+}

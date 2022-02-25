@@ -1,0 +1,53 @@
+#testimonials{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonials--title{
+    font-family: var(--font_fraunces);
+    font-weight: 700;
+    color: var(--Grayish_blue);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 5px;
+}
+
+.testimonials--cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 63px;
+    width: 84%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.testimonials--card>img{
+    border-radius: 50%;
+    width: 76px;
+}
+
+.testimonials_card--about{
+    color: var(--very_dark_grayish_blue);
+    font-family: var(--font_barlow);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.testimonials_card--name{
+    color: var(--very_dark_desaturated_blue);
+    font-family: var(--font_fraunces);
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonials_card--profesion{
+    color: var(--Grayish_blue);
+    font-family: var(--font_barlow);
+    font-size: 14px;
+}
