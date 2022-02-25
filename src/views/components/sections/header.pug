@@ -1,9 +1,11 @@
-header
+header#header
     nav
         figure.header_nav--logoContainer
-            img(src='./assets/images/logo.svg' alt='sunnyside logo')
+            a(href="#header")
+                img(src='./assets/images/logo.svg' alt='sunnyside logo')
         figure#buttonBurguer.burguer
-            img(src='./assets/images/icon-hamburger.svg' alt='burguer')
+            a(href="#" title="abrir menu con links")
+                img(src='./assets/images/icon-hamburger.svg' alt='')
         #menu.header_nav--listContainer
             ul.elementsListContainer
                 li
@@ -16,4 +18,5 @@ header
                     a#link-contact.header_nav_listContainer--elements(href='#contact') CONTACT
     .header--titleContainer
         h1.header_titleContainer--title We are creatives
-    img.header--imgArrow(src='./assets/images/icon-arrow-down.svg' alt='ir a la siguiente seccion')
+    a(href="#about" title="ir a la siguiente seccion")
+        img.header--imgArrow(src='./assets/images/icon-arrow-down.svg' alt='')

@@ -16,10 +16,10 @@
     <title>Sunnyside agency - jQuery</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav>
-        <figure class="header_nav--logoContainer"><img src="./assets/images/logo.svg" alt="sunnyside logo"></figure>
-        <figure class="burguer" id="buttonBurguer"><img src="./assets/images/icon-hamburger.svg" alt="burguer"></figure>
+        <figure class="header_nav--logoContainer"><a href="#header"><img src="./assets/images/logo.svg" alt="sunnyside logo"></a></figure>
+        <figure class="burguer" id="buttonBurguer"><a href="#" title="abrir menu con links"><img src="./assets/images/icon-hamburger.svg" alt=""></a></figure>
         <div class="header_nav--listContainer" id="menu">
           <ul class="elementsListContainer">
             <li><a class="header_nav_listContainer--elements" href="#about">About</a></li>
@@ -31,7 +31,7 @@
       </nav>
       <div class="header--titleContainer">
         <h1 class="header_titleContainer--title">We are creatives</h1>
-      </div><img class="header--imgArrow" src="./assets/images/icon-arrow-down.svg" alt="ir a la siguiente seccion">
+      </div><a href="#about" title="ir a la siguiente seccion"><img class="header--imgArrow" src="./assets/images/icon-arrow-down.svg" alt=""></a>
     </header>
     <main>
       <!-- About Section-->
@@ -44,10 +44,10 @@
               Engage your clients through compelling visuals that do most of the marketing for you.
             </p><a class="learnMore" href="#">Learn more</a>
           </div>
-          <figure> <img class="block" src="./assets/images/desktop/image-transform.jpg" alt="transform your brand - imagen"></figure>
+          <figure class="about--article--egg"></figure>
         </article>
         <article class="about--article">
-          <figure><img class="block" src="./assets/images/desktop/image-stand-out.jpg" alt="stand out to the right audience - imagen"></figure>
+          <figure class="about--article--lamp"></figure>
           <div class="about_article1--textContainer">
             <h2 class="about_article_textContainer--title">Stand out to the right audience</h2>
             <p class="about_article_textContainer--parraf">
@@ -75,7 +75,7 @@
       <section id="testimonials">
         <h4 class="testimonials--title">Client testimonials</h4>
         <section class="testimonials--cardsContainer">
-          <article class="testimonials--card"><img src="./assets/images/image-emily.jpg" alt="imagen de persona">
+          <article class="testimonials--card"><img src="./assets/images/image-emily.jpg" alt="">
             <p class="testimonials_card--about">
               We put our trust in Sunnyside and they delivered,
               making sure our needs were met and deadlines were always hit.
@@ -83,7 +83,7 @@
             <h5 class="testimonials_card--name">Emily R.</h5>
             <p class="testimonials_card--profesion">Marketing Director</p>
           </article>
-          <article class="testimonials--card"><img src="./assets/images/image-thomas.jpg" alt="imagen de persona">
+          <article class="testimonials--card"><img src="./assets/images/image-thomas.jpg" alt="">
             <p class="testimonials_card--about">
               Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
               success made it a satisfying and enjoyable experience.
@@ -91,7 +91,7 @@
             <h5 class="testimonials_card--name">Thomas S.</h5>
             <p class="testimonials_card--profesion">Chief Operating Officer</p>
           </article>
-          <article class="testimonials--card"><img src="./assets/images/image-jennie.jpg" alt="imagen de persona">
+          <article class="testimonials--card"><img src="./assets/images/image-jennie.jpg" alt="">
             <p class="testimonials_card--about">Incredible end result! Our sales increased over 400% when we worked with Sunnyside.<br> Highly recommended!</p>
             <h5 class="testimonials_card--name">Jennie F.</h5>
             <p class="testimonials_card--profesion">Business Owner</p>
@@ -101,19 +101,19 @@
       <!-- Section Projects-->
       <section class="slideshow" id="projects" data-pagination="false">
         <ul class="carousel">
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt="orange"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone"></li>
-          <li class="slide"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes"></li>
+          <li class="slide"><a href="#projecto1"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto2"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto3"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto4"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto5"><img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto6"><img src="./assets/images/desktop/image-gallery-orange.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto7"><img src="./assets/images/desktop/image-gallery-cone.jpg" alt=""></a></li>
+          <li class="slide"><a href="#projecto8"><img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt=""></a></li>
         </ul>
       </section>
     </main>
     <!-- Footer-->
-    <footer><img class="logoFooter" src="./assets/images/logo.svg" alt="logo sunnyside footer">
+    <footer><a href="#header"><img class="logoFooter" src="./assets/images/logo.svg" alt="logo sunnyside"></a>
       <article class="footer--nav">
         <ul>
           <li><a href="#about">About</a></li>
@@ -121,7 +121,7 @@
           <li><a href="#projects">Projects</a></li>
         </ul>
       </article>
-      <article id="social-contact"><a class="social-contact--link" href="www.facebook.com"><img class="social-contact_link--image" src="./assets/images/icon-facebook.svg" alt="facebook"></a><a class="social-contact--link" href="www.instagram.com"><img class="social-contact_link--image" src="./assets/images/icon-instagram.svg" alt="instagram"></a><a class="social-contact--link" href="www.twitter.com"><img class="social-contact_link--image" src="./assets/images/icon-twitter.svg" alt="twitter"></a><a class="social-contact--link" href="www.pinterest.com"><img class="social-contact_link--image" src="./assets/images/icon-pinterest.svg" alt="pinterest"></a></article>
+      <article id="social-contact"><a class="social-contact--link" href="www.facebook.com"><img class="social-contact_link--image" src="./assets/images/icon-facebook.svg" alt="facebook" title="ir a facebook"></a><a class="social-contact--link" href="www.instagram.com"><img class="social-contact_link--image" src="./assets/images/icon-instagram.svg" alt="instagram" title="ir a instagram"></a><a class="social-contact--link" href="www.twitter.com"><img class="social-contact_link--image" src="./assets/images/icon-twitter.svg" alt="twitter" title="ir a twitter"></a><a class="social-contact--link" href="www.pinterest.com"><img class="social-contact_link--image" src="./assets/images/icon-pinterest.svg" alt="pinterest" title="ir a pinterest"></a></article>
     </footer>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/jquery-ui.min.js"></script>

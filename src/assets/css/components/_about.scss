@@ -3,6 +3,22 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.about--article--egg{
+    background-image: url('../images/desktop/image-transform.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 526px;
+}
+
+.about--article--lamp{
+    background-image: url('../images/desktop/image-stand-out.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 526px;
+}
+
 .about_article1--textContainer{
     display: flex;
     flex-direction: column;
