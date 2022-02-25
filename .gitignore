@@ -1,0 +1,7 @@
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.config
+node_modules/
+package-lock.json
