@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+} 
 
 .testimonials--title{
     font-family: var(--font_fraunces);
@@ -25,9 +25,26 @@
     margin-top: 100px;
 }
 
-.testimonials--card>img{
+.testimonials_card--image{
     border-radius: 50%;
     width: 76px;
+    height: 76px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.testimonials--cardsContainer .testimonials--card:first-child figure{
+    background-image: url('../images/image-emily.jpg');
+}
+
+.testimonials--cardsContainer .testimonials--card:nth-child(2) figure{
+    background-image: url('../images/image-thomas.jpg');
+}
+
+.testimonials--cardsContainer .testimonials--card:last-child figure{
+    background-image: url('../images/image-jennie.jpg');
 }
 
 .testimonials_card--about{
