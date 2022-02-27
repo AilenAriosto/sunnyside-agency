@@ -1,3 +1,45 @@
-.slide>a>img{
+.carousel .slide a{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
     width: 380px;
+    height: 471px;
+    display: block;
+    
+}
+
+.carousel .slide:first-child a{
+    background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+}
+
+.carousel .slide:nth-child(2) a{
+    background-image: url('../images/desktop/image-gallery-orange.jpg');
+}
+
+.carousel .slide:nth-child(3) a{
+    background-image: url('../images/desktop/image-gallery-cone.jpg');
+}
+
+.carousel .slide:nth-child(4) a{
+    background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
+}
+
+.carousel .slide:nth-child(5) a{
+    background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+}
+
+.carousel .slide:nth-child(6) a{
+    background-image: url('../images/desktop/image-gallery-orange.jpg');
+}
+
+.carousel .slide:last-child a{
+    background-image: url('../images/desktop/image-gallery-cone.jpg');
+}
+
+
+.slide:hover{
+    width: 380px;
+    opacity: 0.3;
+    transition: all 1s ease;
 }
