@@ -121,7 +121,9 @@ nav {
 .header--imgArrow {
   position: absolute;
   top: 44%;
-  left: 49%;
+  left: 46%;
+  color: white;
+  font-size: 107px;
 }
 
 /*----------------------- About ---------------------------------*/
@@ -475,7 +477,8 @@ footer {
   }
 
   .header--imgArrow {
-    left: 44%;
+    left: 38%;
+    top: 41%;
   }
 
   .burguer {
