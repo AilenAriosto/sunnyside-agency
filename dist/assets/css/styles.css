@@ -449,6 +449,11 @@ footer {
   padding: 14px;
 }
 
+.social-contact_link--image {
+  color: var(--dark_desaturated_cyan);
+  font-size: 22px;
+}
+
 .social-contact--link:hover .social-contact_link--image {
   filter: invert(294%) sepia(187%) saturate(19%) hue-rotate(287deg) brightness(140%) contrast(104%);
 }

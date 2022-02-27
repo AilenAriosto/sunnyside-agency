@@ -24,7 +24,7 @@ footer{
     font-family: var(--font_barlow);
     font-size: 18px;
     color: var(--dark_moderate_cyan);
-}
+} 
 
 .footer--nav>ul>li>a:hover{
     color: var(--White);
@@ -38,6 +38,11 @@ footer{
 
 .social-contact--link{
     padding: 14px;
+}
+
+.social-contact_link--image{
+    color: var(--dark_desaturated_cyan);
+    font-size: 22px;
 }
 
 .social-contact--link:hover .social-contact_link--image{
