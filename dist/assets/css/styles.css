@@ -101,6 +101,12 @@ nav {
 
 .burguer {
   display: none;
+  background-image: url("../images/icon-hamburger.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 24px;
+  height: 18px;
 }
 
 .header--titleContainer {
