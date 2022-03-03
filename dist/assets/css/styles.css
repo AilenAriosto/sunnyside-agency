@@ -65,7 +65,10 @@ nav {
   padding-right: 30px;
 }
 
-.header_nav--logoContainer > img {
+.header_nav--logoContainer {
+  background-image: url("../images/logo.svg");
+  background-position: center;
+  background-size: contain;
   width: 169px;
 }
 
