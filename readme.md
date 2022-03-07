@@ -1,5 +1,7 @@
 ### Sunnyside Agency - Front End Mentor
 
+<hr>
+
 ### Links
 
 - Solution URL: https://sunnyside-agency-jquery.netlify.app
