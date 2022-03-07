@@ -1,9 +1,9 @@
+### Sunnyside Agency - Front End Mentor
+
 ### Links
 
 - Solution URL: https://sunnyside-agency-jquery.netlify.app
 - Live Site URL: https://github.com/AilenAriosto/sunnyside-agency
-
-## My process
 
 ### Built with
 
@@ -24,14 +24,14 @@
 - jQuery
 
 
-### Prerequisites 📋
+## Prerequisites 📋
 
 Git (https://git-scm.com)
 Nodejs (https://nodejs.org/es/)
 Gulp (https://gulpjs.com/docs/en/getting-started/quick-start)
 
 
-### Installing 🔧
+## Installing 🔧
 
 
 ```
