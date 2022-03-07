@@ -1,6 +1,4 @@
-### Sunnyside Agency - Front End Mentor
-
-<hr>
+## Sunnyside Agency - Front End Mentor
 
 ### Links
 
