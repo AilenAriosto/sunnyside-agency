@@ -9,6 +9,10 @@ header{
     
 }
 
+#header>a{
+    text-decoration:  underline;
+}
+
 nav{
     display: flex;
     justify-content: space-between;

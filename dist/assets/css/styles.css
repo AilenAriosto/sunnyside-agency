@@ -58,6 +58,10 @@ header {
   padding-top: 50px;
 }
 
+#header > a {
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   justify-content: space-between;

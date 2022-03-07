@@ -10,7 +10,12 @@ $(document).ready(function(){
         buttonBurguer.click(function(){
             menu.toggle("scale", 500)
         })
+        
+        buttonBurguer.on('keypress', function(){
+            menu.toggle("scale", 500)
+        })
     }
+    
 
     // Slider
     
