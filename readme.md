@@ -24,55 +24,27 @@
 - jQuery
 
 
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
+### Prerequisites 📋
 
 Git (https://git-scm.com)
 Nodejs (https://nodejs.org/es/)
 Gulp (https://gulpjs.com/docs/en/getting-started/quick-start)
 
-<hr>
 
-Git clone
-
-```
-git clone https://github.com/AilenAriosto/sunnyside-agency.git
-```
+### Installing 🔧
 
 
 ```
-npm
+$ git clone https://github.com/AilenAriosto/sunnyside-agency.git
+$ npm install
 ```
 
-### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+## Deployment 📦
 
 ```
-Da un ejemplo
+$ gulp
 ```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 
 
 ## Author
